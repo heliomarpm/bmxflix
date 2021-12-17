@@ -106,7 +106,7 @@ function CadastroCategoria() {
           </label>
         </div> */}
 
-        <button>
+        <button type="submit">
           Cadastrar
         </button>
       </form>
