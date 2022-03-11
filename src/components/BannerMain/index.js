@@ -17,7 +17,7 @@ export default function BannerMain({
 }) {
     let bgUrl = null;
 
-    if (typeof heroImg === Array) {
+    if (Array.isArray(heroImg)) {
         bgUrl = heroImg[Math.floor(Math.random() * heroImg.length)];
     }
     else { 

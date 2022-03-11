@@ -4,20 +4,26 @@
     "url": "https://www.youtube.com/watch?v=vvsqP8YIh0w",
     "sinopse": "THANKS FOR WATCHING! SHARE WITH YOUR FRIENDS",
     "alignVideo": "right",
-    "bgImage": [ "assets/background.jpg","assets/background2.jpg" ]
+    "bgImage": [ 
+      "https://raw.githubusercontent.com/heliomarpm/bmxflix/master/src/assets/background.jpg",
+      "https://raw.githubusercontent.com/heliomarpm/bmxflix/master/src/assets/background2.jpg" ]
   },
   "categorias": [
     {
-      "titulo": "BMX SX",
+      "titulo": "The best BMX videos",
       "cor": "#ff5722",
       "link_extra": {
-        "text": "Book",
+        "text": "My personal book",
         "url": "https://www.facebook.com/heliomarMarquesBMX/photos"
       },
       "videos": [
         {
           "titulo": "THIS IS BMX",
           "url": "https://www.youtube.com/watch?v=fMfv52BW3DU&list=PL53xuoxC0zZn71xLOyl3-71Y7hbxOkDai&index=28&t=57s"
+        },
+        {
+          "titulo": "BMX Inspiration 5",
+          "url": "https://www.youtube.com/watch?v=vvsqP8YIh0w"
         },
         {
           "titulo": "BMX Inspiration 7",
