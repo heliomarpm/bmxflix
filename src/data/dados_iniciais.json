@@ -4,7 +4,7 @@
     "url": "https://www.youtube.com/watch?v=vvsqP8YIh0w",
     "sinopse": "THANKS FOR WATCHING! SHARE WITH YOUR FRIENDS",
     "alignVideo": "right",
-    "bgImage": "https://scontent.fcgh23-1.fna.fbcdn.net/v/t1.6435-9/74685209_10206914194449154_2252591178589405184_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHhD0tB5BDaXCQLl-C0gWnLjnHYCv1ayQmOcdgK_VrJCY0W2HE-wUqcpvUX50u_9so&_nc_ohc=8qFvim3PokkAX91LYUR&_nc_ht=scontent.fcgh23-1.fna&oh=00_AT_kiafN6rglretA4VVegyr20ui3XyjNiCguRXChejoVsQ&oe=61E2D962"
+    "bgImage": [ "assets/background.jpg","assets/background2.jpg" ]
   },
   "categorias": [
     {

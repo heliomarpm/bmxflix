@@ -15,8 +15,16 @@ export default function BannerMain({
   videoDescription,
   url, heroImg = null, alignVideo:string = 'left'|'right'
 }) {
-  const youTubeID = getYouTubeId(url);
-  const bgUrl =  heroImg  ? heroImg : `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+    let bgUrl = null;
+
+    if (typeof heroImg === Array) {
+        bgUrl = heroImg[Math.floor(Math.random() * heroImg.length)];
+    }
+    else { 
+        bgUrl = heroImg  ? heroImg : `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+    }
+
+    const youTubeID = getYouTubeId(url);
 
     return (     
         <BannerMainContainer backgroundImage={bgUrl}>
